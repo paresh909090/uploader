@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="61px" height="57px" viewBox="0 0 61 57" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>d8</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="4.11628706%" y1="-147.575517%" x2="0.550063793%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#CCD1D9" offset="0%"></stop>
+            <stop stop-color="#8F9AA8" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-2" x="0" y="0" width="61" height="57" rx="6"></rect>
+        <filter x="-3.3%" y="-3.5%" width="106.6%" height="107.0%" filterUnits="objectBoundingBox" id="filter-3">
+            <feGaussianBlur stdDeviation="1.5" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Rectangle-14-Copy-14">
+            <use fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
+            <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+        </g>
+        <g id="Group" transform="translate(21.000000, 19.000000)" stroke="#FFFFFF" stroke-width="2">
+            <g id="Shape">
+                <path d="M20,10 C20,15.5227273 15.5227273,20 10,20 C4.47727273,20 0,15.5227273 0,10 C0,4.47727273 4.47727273,0 10,0 C15.5227273,0 20,4.47727273 20,10 Z"></path>
+                <polyline stroke-linecap="round" stroke-linejoin="round" points="14.5454545 11.8181818 10 7.27272727 5.45454545 11.8181818"></polyline>
+            </g>
+        </g>
+    </g>
+</svg>

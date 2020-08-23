@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="147px" height="147px" viewBox="0 0 147 147" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>chart</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Chart" transform="translate(4.000000, 4.000000)">
+            <g id="Circular">
+                <circle id="Oval-2" stroke="#ECEFF4" stroke-width="5" cx="69.5" cy="69.5" r="69.5"></circle>
+                <path d="M69.5,139 C107.88379,139 139,107.88379 139,69.5 C139,31.1162099 107.88379,0 69.5,0 C31.1162099,0 0,31.1162099 0,69.5 C0,107.88379 31.1162099,139 69.5,139 Z" id="Oval-2" stroke="#80BC3F" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="190,10000" transform="translate(69.500000, 69.500000) scale(1, -1) translate(-69.500000, -69.500000) "></path>
+            </g>
+            <g id="Info" transform="translate(32.000000, 46.000000)">
+                <text id="45%" font-family=".SFNSDisplay, .SF NS Display" font-size="32" font-weight="normal" fill="#000000">
+                    <tspan x="6.40625" y="31">45%</tspan>
+                </text>
+                <path d="M11.375,49 L65,49" id="Line" stroke="#979797" stroke-linecap="square" stroke-dasharray="1,4"></path>
+            </g>
+        </g>
+    </g>
+</svg>

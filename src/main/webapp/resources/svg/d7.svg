@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="61px" height="57px" viewBox="0 0 61 57" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>d7</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0.550063776%" y1="0.550063776%" x2="97.300486%" y2="97.300486%" id="linearGradient-1">
+            <stop stop-color="#EC87C0" offset="0%"></stop>
+            <stop stop-color="#BF4C90" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-2" x="0" y="0" width="61" height="57" rx="6"></rect>
+        <filter x="-3.3%" y="-3.5%" width="106.6%" height="107.0%" filterUnits="objectBoundingBox" id="filter-3">
+            <feGaussianBlur stdDeviation="1.5" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Rectangle-14-Copy-13">
+            <use fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
+            <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+        </g>
+        <path d="M21,36.7771469 C21,37.3995458 21.5048973,37.9033925 22.1285941,37.9033925 C22.7522908,37.9033925 23.2571881,37.3995458 23.2571881,36.7771469 L23.2571881,35.3841589 C25.187678,37.6662881 28.038863,39 31.0385473,39 C36.0875208,39 40.3345984,35.2656068 40.987995,30.2567778 C41.0770945,29.6343789 40.6612967,29.1008941 40.0376,29.01198 C39.4139033,28.9230659 38.8793061,29.3379985 38.7902066,29.9603973 C38.7902066,29.9603973 38.7902066,29.9900354 38.7902066,29.9900354 C38.2853092,33.8726188 34.9886265,36.7771469 31.0682471,36.7771469 C28.4843607,36.7771469 26.0489735,35.5323491 24.5639813,33.4576862 L26.5835707,33.4576862 C27.2072674,33.4576862 27.7121647,32.9538395 27.7121647,32.3314407 C27.7121647,31.7090418 27.2072674,31.2051951 26.5835707,31.2051951 L22.1285941,31.2051951 C21.5048973,31.2051951 21,31.7090418 21,32.3314407 L21,36.7771469 Z" id="Shape" fill="#FFFFFF" fill-rule="nonzero"></path>
+        <path d="M34.2855875,25.6926437 C34.2855875,26.3172905 34.7906539,26.8229569 35.4145595,26.8229569 L39.871028,26.8229569 C40.4949336,26.8229569 41,26.3172905 41,25.6926437 L41,21.2308812 C41,20.6062345 40.4949336,20.1005681 39.871028,20.1005681 C39.2471224,20.1005681 38.742056,20.6062345 38.742056,21.2308812 L38.742056,22.6289002 C36.8109196,20.3385287 33.9587798,19 30.958091,19 C25.9074267,19 21.629217,22.7776256 21.0053114,27.7747996 C20.9458918,28.3994463 21.3915387,28.9348578 22.0154443,28.994348 C22.6096401,29.0538381 23.1444163,28.637407 23.2335456,28.0425053 C23.7089023,24.1458994 27.0363987,21.2011362 30.958091,21.2011362 C33.5428427,21.2011362 35.9790455,22.4504297 37.464535,24.5623306 L35.4145595,24.5623306 C34.7906539,24.5920756 34.2855875,25.0977421 34.2855875,25.6926437 Z" id="Shape" fill="#FFFFFF" fill-rule="nonzero"></path>
+    </g>
+</svg>

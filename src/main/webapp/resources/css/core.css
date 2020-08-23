@@ -1,0 +1,787 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url('https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i');
+html, body {height: 100%; min-height: 100%;}
+body{-webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale;}
+body{font-size:13px;background:#eff1f3;font-family: 'Lato', sans-serif !important;}
+.defineFloat{float:left;width:100%;}
+a:hover{text-decoration:none;}
+a:focus, textarea:focus{outline:0;text-decoration:none;}
+p{margin:0;}
+ul{margin-bottom:0;}
+
+
+
+/****** Home Page *******/
+
+header {
+
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1f4f82+0,3c73af+100 */
+background: #1f4f82; /* Old browsers */
+background: -moz-linear-gradient(left, #1f4f82 0%, #3c73af 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, #1f4f82 0%,#3c73af 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, #1f4f82 0%,#3c73af 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1f4f82', endColorstr='#3c73af',GradientType=1 ); /* IE6-9 */
+    padding: 30px 0 35px 0;
+    box-shadow: 0 0 30px rgb(47, 99, 155);
+	position:relative;
+	z-index:2;
+}
+.navbar-header {max-width: 262px;width: 100%;}
+.navbar-header a {height: auto;padding: 0px;display:block;width:100%;}
+.navbar-header a img { margin-left: -10px;}
+header nav.navbar {background: inherit;border: 0;margin:0;}
+.menuOuter {margin-top: 20px;width: 100%;max-width: 1000px;}
+.menuOuter ul li:not(:last-child) {margin-right: 40px;}
+.menuOuter ul li a {padding: 0px;transition:all 0.25s ease-in-out;}
+.menuOuter ul li a:hover {filter: brightness(0) invert(1);}
+.menuOuter ul li.active a {filter: brightness(0) invert(1); background: none !important;}
+.menuOuter form .form-group, .menuOuter form .form-group input { width: 100%;}
+.menuOuter form {max-width: 485px;padding: 0 40px 0 0;width: 100%;margin: 0;}
+.menuOuter form .form-group input {background: no-repeat;border-top: 0; border-left: 0;border-radius: 0; border-right: 0;    border-bottom: 2px solid #f5a419;box-shadow: none;padding: 0 20px 0 50px;background-image: url(../svg/search2.svg);background-repeat: no-repeat;background-position: left center;height: 50px;color:#fff;}
+.menuOuter form .form-group input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #fff;
+}
+.menuOuter form .form-group input::-moz-placeholder { /* Firefox 19+ */
+  color: #fff;
+}
+.menuOuter form .form-group input:-ms-input-placeholder { /* IE 10+ */
+  color: #fff;
+}
+.menuOuter form .form-group input:-moz-placeholder { /* Firefox 18- */
+  color: #fff;
+}
+.notifications {margin-top: 20px; max-width: 110px;padding: 0;width: 100%;}
+.notifications ul li {display: inline-block;}
+.notifications ul li:not(:last-child) {margin-right: 40px;}
+.notifications ul li a {position: relative;font-size: 31px;color: #fff;}
+.notifications ul li a span {position: absolute;top: -3px;background: red;border-radius: 50%;width: 20px;height: 20px; display: flex;font-size: 11px;align-items: center;justify-content: center;right: -9px;}
+.menuOuter ul li a span{display:none;}
+
+
+
+
+/***** Login Page ******/
+
+#login{position:relative;}
+.loginLeft {float: left;height: 100vh;width: 480px;
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#204f82+40,386faa+100 */
+background: #204f82; /* Old browsers */
+background: -moz-linear-gradient(top, #204f82 35%, #386faa 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #204f82 35%,#386faa 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #204f82 35%,#386faa 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#204f82', endColorstr='#386faa',GradientType=0 ); /* IE6-9 */
+display: flex;align-items: center;flex-wrap: wrap;justify-content: center;position:absolute;left:0;top:0;padding:0 114px;}
+
+.loginLogo{margin-bottom:25px;}
+.loginForm .form-group input {background: #eff1f3;border: 0;border-radius: 12px;padding: 0 20px;height: 48px;font-size:14px;}
+.loginForm form a {width: 100%;display: block;text-align: center;height: 48px;border-radius: 12px;box-shadow: 0 0 10px 0px rgba(0,0,0,0.20);line-height: 48px;font-size: 18px;color: #fff;
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#376ea9+40,215286+100 */
+background: #376ea9; /* Old browsers */
+background: -moz-linear-gradient(top, #376ea9 40%, #215286 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #376ea9 40%,#215286 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #376ea9 40%,#215286 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#376ea9', endColorstr='#215286',GradientType=0 ); /* IE6-9 */}
+.loginRight {float: left;width: 100%;padding-left: 480px;height: 100vh;overflow:hidden;}
+.loginRight img {width: 100%;}
+.signGoogle {background: #fff;border-radius: 50px;margin: 20px 0;}
+.signGoogle a {font-size: 14px;line-height: 48px;display: block;width: 100%;}
+.forgotPass a {color: rgba(255,255,255,0.5);font-size: 14px;}
+.signGoogle a img{display:inline-block;width: 18px;margin-right: 20px;}
+.signupHere p {color: rgba(255,255,255,0.5);font-size: 14px;margin-bottom: 10px;}
+.signupHere a {display: inline-block;color: #ed9e1a;font-size: 18px;    position: relative;	}
+.signupHere a:after {border-bottom: 1px solid #f3a319; content: "";position: absolute;width: 100%;left: 0px;bottom: -5px;}
+.loginMobileBg{display:none;}
+
+
+
+/******* Documents *********/
+/*section#documents {position: relative;}*/
+section#documents {min-height: 1000px;position:relative;}
+.documentLeft {float: left; position: absolute;width: 260px; background: #fff;padding:50px 30px 0 30px;height:100%;z-index:1;}
+
+.documentList { position: relative; padding-top: 80px;}
+.documentList .documentSearch {position: absolute;left: 0px; top: 0px;width: 100%;}
+.documentLeft form .form-group input {background: no-repeat;border-top: 0;border-left: 0;border-radius: 0;border-right: 0;    border-bottom: 2px solid #919caa;box-shadow: none;padding: 0 20px 0 50px;background-image: url(../svg/seach1.svg); background-repeat: no-repeat;background-position: left center;height: 50px; color: #919caa;}
+.documentList ul li{margin-bottom:15px;}
+.documentList ul li:last-child{margin-bottom:0;}
+.documentList ul li a{color:#919caa;font-size:14px;}
+.documentList ul li img {display: inline-block;width: 60px;height: 60px;margin-right: 20px;}
+.documentRight {float: left; width: 100%;padding-left: 260px;}
+.documentRight:before {content: "";width: 100%;background: #d2d5d8;height: 30px;display: block;}
+.documentRight table{ background: #d2d5d8;}
+.documentRight table tr th, .documentRight table tr td {padding: 30px 15px 20px 15px;border:0;color:#636568;font-size:14px;}
+.documentRight table tr th {border-left: 1px solid #eff0f3;color: #888a8c;font-size: 16px;}
+.documentRight table tr th:first-child { border: 0;}
+.documentRight table tr:first-child {background: #d2d5d8;}
+.documentRight table tr { background: #e6e7e8;}
+.documentRight table tr:nth-child(2n+2){background: #eff1f3;}
+
+
+.documentRight table tr td input[type="checkbox"] { display: none; }
+.documentRight table tr td input[type="checkbox"] + label {display: block;position: relative;padding-left: 35px; margin-bottom: 20px;font: 14px/20px 'Open Sans'	, Arial, sans-serif;color: #ddd;cursor: pointer;-webkit-user-select: none; -moz-user-select: none;
+  -ms-user-select: none;}
+.documentRight table tr td  input[type="checkbox"] + label:last-child { margin-bottom: 0; }
+.documentRight table tr td input[type="checkbox"] + label:before {content: '';display: block; width: 20px;height: 20px; border: 3px solid #a5a8aa;position: absolute;left: 25px;top: 0;border-radius:6px;-webkit-transition: all .12s, border-color .08s; transition: all .12s, border-color .08s;}
+.documentRight table tr td input[type="checkbox"]:checked + label:before {width: 10px;top: -5px;left: 30px;border-radius: 0;  opacity:1;border-top-color: transparent;border-left-color: transparent;-webkit-transform: rotate(45deg);transform: rotate(45deg);}
+.documentRight table tr td.checkDesign input[type="checkbox"] + label:before {border-radius:50%;left:10px;width:25px;height:25px;transition:inherit;}
+.documentRight table tr td.checkDesign input[type="checkbox"]:checked + label:before {width: 25px;left:10px;border-radius: inherit;opacity: 1;border: 0;-webkit-transform: inherit;transform: inherit;top: inherit; background-image: url(../images/checkDesign.png);background-repeat:no-repeat;background-position: center center;background-size:contain;height:25px;}
+.searchLeft span.show-icon, .documentLeft span.show-icon{display:none;}
+
+
+
+
+/********* Search Page *******/
+.searchBg{background:#d2d5d8;}
+
+
+section#search {min-height: 1000px;position:relative;}
+.searchLeft{width:330px;position:absolute;float:left	;height:100%;background: #fff;box-shadow: 4px 0 10px rgba(217,219,221,1);z-index:1;}
+.searchList ul {padding:30px;}
+.searchList ul li {display: inline-block;}
+.searchList ul li:not(:last-child) {margin-right: 40px;}
+.searchList ul li a {color: #b6b9bc;font-size: 15px;display: block;transition: all 0.25s ease-in-out;}
+.searchList ul li.active a, .searchList ul li a:hover{color:#3a73af;}
+.searchList ul li a img {display: inline-block;margin-right: 10px;vertical-align: bottom;}
+.panel-heading .accordion-toggle:after {font-family: 'Glyphicons Halflings';content: "\e113";float: right;color: #fff;top: 4px;   position: relative;}
+.panel-heading .accordion-toggle.collapsed:after {content: "\e114";}
+.panel-heading .accordion-toggle {display: block;color:#fff;}
+.accordionOuter .panel-body{padding:20px 30px;border:0px;}
+.accordionOuter .panel{border:0;margin: 0 !important;}
+.panel-heading{padding:10px 30px;border-radius:0;
+background: #9aa3ae; /* Old browsers */
+background: -moz-linear-gradient(left, #9aa3ae 0%, #696f78 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, #9aa3ae 0%,#696f78 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, #9aa3ae 0%,#696f78 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9aa3ae', endColorstr='#696f78',GradientType=1 ); /* IE6-9 */}
+
+.panel-group .panel-heading a img {display: inline-block;margin-right: 10px;}
+.panel-body ul li{margin-bottom:10px;}
+.panel-body ul li input[type="checkbox"] { display: none; }
+.panel-body ul li input[type="checkbox"] + label {display: block;position: relative;padding-left: 35px; margin-bottom: 20px;font: 14px/20px 'Open Sans', Arial, sans-serif;color: #4f5356;cursor: pointer;-webkit-user-select: none; -moz-user-select: none;
+  -ms-user-select: none;}
+.panel-body ul li  input[type="checkbox"] + label:last-child { margin-bottom: 0; }
+.panel-body ul li input[type="checkbox"] + label:before {content: '';display: block; width: 20px;height: 20px; border: 3px solid #a5a8aa;position: absolute;left: 0px;top: 0;border-radius:6px;-webkit-transition: all .12s, border-color .08s; transition: all .12s, border-color .08s;}
+.panel-body ul li input[type="checkbox"]:checked + label:before {width: 20px;top: 0px;left: 0px;border-radius: 6px; opacity: 1;   border: 8px solid #3c73af;height: 20px;box-shadow: 0 0 5px rgba(60,115,175,0.5) inset, 0 0 5px rgba(60,115,175,1);}
+#collapseFour .panel-body ul li {display: inline-block;margin: 0 8px 10px 0;}
+#collapseFour .panel-body ul li a {padding: 8px 20px;background: #b6b9bc;border-radius: 10px;display: block;color: #fff;    font-size: 13px;}
+#collapseFour .panel-body ul li.active a, #collapseFour .panel-body ul li a:hover{background:#3c73af;}
+.searchRight{padding-left:330px;margin-top:40px;}
+ul.tabs {margin: 0;padding: 0 30px;float: left;list-style: none;width: 100%;}
+ul.tabs li {float: left;margin: 0 10px 0 0;cursor: pointer;padding: 10px 30px 10px 15px;height: auto;line-height: 31px;  background: #97999b;color: #fff;overflow: hidden;position: relative;border-radius: 8px 8px 0 0;margin-right: 10px;font-size: 16px;	transition:all 0.25s ease-out;}
+ul.tabs li:hover {background-color: #eff1f3;color: #888a8c;}
+ul.tabs li.active {background: #eff1f3;color: #888a8c;display: block;}
+.tab_container {border-top: none;clear: both;float: left;width: 100%;}
+.tab_content {padding: 30px;display: none;float:left;width:100%;background: #eff1f3;}
+.tab_drawer_heading { display: none;}
+.Tabchip label, .tabList ul  label {color: #3a73ad;font-size: 18px; margin-bottom: 20px;font-weight:400;}
+.tabList ul  label{font-size:25px;}
+.Tabchip ul li {display: inline-block;margin-right: 20px; background: #fff;border-radius: 20px;height: 40px;position: relative;  padding: 0px 40px 0 20px;}
+.Tabchip ul li p {line-height: 40px;font-size: 13px;color: #3a73ad;min-width:170px;}
+.Tabchip ul li  i {position: absolute;right: 10px;background: #e3e4e4;border-radius: 50%;width: 20px;height: 20px;cursor: pointer;color: #fff;display: flex;justify-content: center;font-size: 12px;align-items: center;top: 50%;transform: translateY(-50%);}
+.tabList {margin-top: 30px;}
+.tabList ul {float: left;width: 20%;}
+.tabList ul li {color: #4f5356;font-size: 13px;margin-bottom: 5px;}
+.descList { margin-top: 60px;}
+.descListInner {padding-left: 265px;position: relative;max-height:182px;height:182px;margin-bottom:25px;box-shadow:0 5px 15px rgba(0,0,0,0.1);border-radius:10px;}
+.descListLeft {position: absolute;left: 0px;width: 265px;padding: 20px;height:100%;border-radius:10px 0 0 10px;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#3a70ac+0,1f5083+100 */
+background: #3a70ac; /* Old browsers */
+background: -moz-linear-gradient(top, #3a70ac 0%, #1f5083 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #3a70ac 0%,#1f5083 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #3a70ac 0%,#1f5083 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3a70ac', endColorstr='#1f5083',GradientType=0 ); /* IE6-9 */
+}
+
+.descListLeft label {color: #fff;font-size: 15px;font-weight: 400;margin: 0;display:block;}
+.descListLeft p {position: absolute;bottom: 15px;color: #fff; width: 100%;font-size: 14px;left: 0;padding: 0 20px;}
+.descListLeft p i {float: right;top: 0px;position: relative;font-size:20px;cursor:pointer;}
+.descListLeft p i.active{color:#f5a419;}
+.descListRight {float: left;width: 100%;padding: 20px;background:#fff;border-radius:0 10px 10px 0;height:100%;position:relative;}
+.descListRight label {display: block;color: #3d4551;font-size: 15px;margin-bottom: 20px;}
+.descListRight p {color:#3d4551;padding-right: 380px;}
+.descListRight a {position: absolute;bottom: 20px;font-size: 15px;}
+.descListRight a img {display: inline-block;margin-right: 10px;vertical-align: bottom;}
+
+
+
+
+
+
+/********** User ***********/
+#user{margin-top:30px;min-height: 1000px;}
+.whiteBg {background: #fff;border-radius: 10px;}
+.sameHeading {background: #000;border-radius: 10px 10px 0 0;max-height: 125px;height: 120px;align-items: center; padding: 0 0 0 30px;display:flex;background-position: right 30px top 20px; background-repeat: no-repeat;}
+.sameHeading h2 {margin: 0px;font-size: 24px;color: #fff;line-height: 31px;}
+.userFirst, .userSecond {position: relative;}
+.userFirst .sameHeading { background-image: url(../svg/user1.svg);
+background-color: #9ed366; /* Old browsers */
+background-color: -moz-linear-gradient(left, #9ed366 59%, #70b12a 100%); /* FF3.6-15 */
+background-color: -webkit-linear-gradient(left, #9ed366 59%,#70b12a 100%); /* Chrome10-25,Safari5.1-6 */
+background-color: linear-gradient(to right, #9ed366 59%,#70b12a 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9ed366', endColorstr='#70b12a',GradientType=1 ); /* IE6-9 */box-shadow: 0 5px 10px rgba(222,239,204,1);}
+.userSecond .sameHeading { background-image: url(../svg/use2.svg);box-shadow: 0 5px 10px rgba(184,228,244,1);
+background-color: #4abfe8; /* Old browsers */
+background-color: -moz-linear-gradient(left, #4abfe8 59%, #109dd2 100%); /* FF3.6-15 */
+background-color: -webkit-linear-gradient(left, #4abfe8 59%,#109dd2 100%); /* Chrome10-25,Safari5.1-6 */
+background-color: linear-gradient(to right, #4abfe8 59%,#109dd2 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4abfe8', endColorstr='#109dd2',GradientType=1 ); /* IE6-9 */}
+.userThird .sameHeading {background-image: url(../svg/user3.svg);box-shadow: 0 5px 10px rgba(178,230,217,1);/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#45cdab+59,1ba885+100 */
+background-color: #45cdab; /* Old browsers */
+background-color: -moz-linear-gradient(left, #45cdab 59%, #1ba885 100%); /* FF3.6-15 */
+background-color: -webkit-linear-gradient(left, #45cdab 59%,#1ba885 100%); /* Chrome10-25,Safari5.1-6 */
+background-color: linear-gradient(to right, #45cdab 59%,#1ba885 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45cdab', endColorstr='#1ba885',GradientType=1 ); /* IE6-9 */}
+.userInfo, .userPass, .userDesc{padding:30px;}
+.userInfo form .form-group, .userPass form .form-group {float: left; width: 100%; position: relative;padding: 0 0 0 80px;margin-bottom: 15px;}
+.userInfo form .form-group label, .userPass form .form-group label {position: absolute;left: 0px;top: 50%;transform: translateY(-50%);color:#707784;font-weight:400;font-size:15px;}
+.userInfo form .form-group input, .userPass form .form-group input {width: 100%;border-top: 0;border-left: 0;border-radius: 0;border-right: 0px;border-bottom:1px solid #000;box-shadow:none;padding-left: 0; padding-right: 0px;}
+.progressGraphOuter{padding:0 30px;}
+.progressGraph {display: flex;justify-content: center;align-items: center;}
+.progressGraph img {float: left;vertical-align: middle;margin-right: 30px;}
+.progressGraph p {font-size: 16px;color: #707883;}
+.progressGraph p span {display: block;margin-top: 10px;font-size: 25px;}
+.userAlertOuter {padding: 30px;}
+.userAlert {padding: 20px 30px 30px 90px;border-radius: 3px;position: relative;background:#c9c9c9;}
+.userAlert img {position: absolute;left: 30px;top: 50%;width: 40px;transform: translateY(-50%);}
+.userAlert p {font-size: 16px;color: #fff;position: relative;top: 8px;line-height: normal;}
+
+.floatButton {position: absolute;bottom: -48px;right: 30px;}
+.floatButton a {padding: 12px 40px;border-radius: 0 0 30px 30px;font-size: 17px;display: block;box-shadow: 0 3px 10px rgba(0,0,0,1);color:#fff;}
+.userFirst .floatButton a{box-shadow: 0 5px 10px rgba(192,219,166,1);background: #9ed366; /* Old browsers */
+background: -moz-linear-gradient(left, #9ed366 0, #70b12a 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, #9ed366 0,#70b12a 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, #9ed366 0,#70b12a 11)0%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9ed366', endColorstr='#70b12a',GradientType=1 ); /* IE6-9 */}
+
+.userSecond .floatButton a{box-shadow: 0 5px 10px rgba(178,230,217,1);background: #4abfe8; /* Old browsers */
+background: -moz-linear-gradient(left, #4abfe8 0, #109dd2 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, #4abfe8 0,#109dd2 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, #4abfe8 0,#109dd2 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4abfe8', endColorstr='#109dd2',GradientType=1 ); /* IE6-9 */}
+
+
+.userPass form .form-group {padding-left:120px;}
+.userPass form .form-group i {position: absolute;right: 0px;transform: translateY(-50%); top: 50%;font-size: 18px;color: #bebebe;cursor:pointer;}
+.userPass form .form-group input {padding-right: 25px;}
+
+.userDesc p {margin: 0 0 40px 0;font-size: 17px;color: #6f7785;}
+.userDesc a { background: #45cdab; /* Old browsers */
+background: -moz-linear-gradient(left, #45cdab 0, #1ba885 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, #45cdab 0,#1ba885 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, #45cdab 0,#1ba885 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45cdab', endColorstr='#1ba885',GradientType=1 ); /* IE6-9 */
+    display: block;text-align: center;line-height: 60px;height: 60px;border-radius: 30px;color: #fff;font-size: 17px;    box-shadow: 0 5px 10px rgba(193,235,225,1);}
+
+
+
+
+/****** ANalysis ******/
+
+section#twoSecction{margin-top:30px;min-height:800px;}
+.paginationOuter {margin: 10px 0 30px 0;}
+.paginationOuter a {display: inline-block;color: #8d8e91;font-size: 15px;transition: all 0.25s ease-in-out;}
+.paginationOuter a.active, .paginationOuter a:hover{color:#3c73ae;}
+.paginationOuter a span {background:#b6b9bc;color: #fff;border-radius: 50%;width: 30px;height: 30px;display: inline-flex;   justify-content: center;align-items: center;margin-right: 10px;}
+.paginationOuter a.active span {background: #3c73ae;}
+.paginationOuter p img {display: inline-block;margin: 0 20px;}
+.iconOuter span {float: left;padding: 30px 0;width: 100%;text-align: center;border-radius: 10px 10px 0 0;min-height: 200px;    display: flex;justify-content: center;align-items: center;}
+.iconOuter span img {display: inline-block;}
+.iconFirst span{/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#c7cdd5+0,939dab+100 */
+background: #c7cdd5; /* Old browsers */
+background: -moz-linear-gradient(left, #c7cdd5 40%, #939dab 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, #c7cdd5 40%,#939dab 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, #c7cdd5 40%,#939dab 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c7cdd5', endColorstr='#939dab',GradientType=1 ); /* IE6-9 */
+box-shadow:3px 3px 10px rgba(166,170,177,1) inset;
+}
+.iconSecond span{
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#9cd163+0,72b22d+100 */
+background: #9cd163; /* Old browsers */
+background: -moz-linear-gradient(left, #9cd163 0%, #72b22d 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, #9cd163 0%,#72b22d 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, #9cd163 0%,#72b22d 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9cd163', endColorstr='#72b22d',GradientType=1 ); /* IE6-9 */
+box-shadow:3px 3px 10px rgba(206,233,155,1) inset;
+}
+
+.iconOuter p {font-size: 25px; font-weight: 400;float: left;width: 100%;background: #fff;color: #aeaeb0;padding: 30px 0;   border-radius: 0 0 10px 10px;box-shadow: 0px 5px 40px rgba(195, 195, 195, 0.1);}
+.descText {margin-top: 30px;}
+.descText textarea {float: left;width: 100%;min-height: 190px;background: #f8f8f8;border: 0px;border-radius: 5px 5px 0;padding: 15px 20px;color: #82868e;font-size: 16px;resize:none;}
+.textBar {background: #bfc1c5;padding: 20px 260px 20px 20px;border-radius: 0 0 5px 5px;position:relative;}
+.textBar p {color: #fff;font-size: 16px;}
+.textBar a {position:absolute;display: block;color:#fff;right:0px;height:100%;top:0;width:240px;display:flex;align-items:center;	justify-content:center;font-size:16px;border-radius:0 0 5px 0;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#92ca56+46,92ca56+46,7fbb3d+100 */
+background: #92ca56; /* Old browsers */
+background: -moz-linear-gradient(top, #92ca56 46%, #92ca56 46%, #7fbb3d 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #92ca56 46%,#92ca56 46%,#7fbb3d 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #92ca56 46%,#92ca56 46%,#7fbb3d 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#92ca56', endColorstr='#7fbb3d',GradientType=0 ); /* IE6-9 */
+}
+
+/****** Reports ******/
+
+.reports-container {padding-bottom: 84px;}
+.reports-download-button-container {margin-top: 4px;}
+.reports-download-button {display:inline-block; background-image: linear-gradient(135deg, #48CFAD 0%, #19A784 100%); border-radius: 11px; font-size: 18px; color: #FFFFFF; height: 50px; line-height:50px; padding: 0 19px; letter-spacing: 0.6px}
+.reports-download-button:hover {opacity: .8;}
+.reports-download-button .icon {display: inline-block; vertical-align: middle; position: relative; top: -3px; background-image:url(../images/iconDownload.png); width: 20px; height: 20px; overflow: hidden; margin: 0 10px 0 5px;}
+.reports-download-button:hover,.reports-download-button:active,.reports-download-button:focus {color: #fff;}
+
+.reports-themes {list-style-type: none; padding: 0; margin-top: 98px;}
+.reports-themes-item {display: inline-block; background: #B6B9BC; border-radius: 7px; padding: 0 22px; color: #fff; line-height: 32px; margin: 2px 4px 2px 0;}
+
+.reports-laws-table {width: 100%; min-width: 520px; margin-top: 30px;}
+.reports-laws-table th {background-image: linear-gradient(135deg, #5D9CEC 0%, #0E65D7 100%); border-radius: 8px 8px 0 0; font-size: 17px; color: #fff; overflow: hidden; padding: 13px 32px;}
+.reports-laws-table tbody {box-shadow: 0 2px 9px 0 rgba(0,0,0,0.31);}
+.reports-laws-table td {border: 0; padding: 14px 32px 15px; background-color: #fff; font-size: 14px; color: #636569;}
+.reports-laws-table-number {width: 66px;}
+.reports-laws-table-name {width: 32.5%;}
+.reports-laws-table-arrow {width: 10px;}
+
+.reports-solutions-container {margin: 62px 0 0 0;}
+.reports-solutions-title {font-size: 17px; color: #888A8C;}
+.reports-solutions-table {margin-top: 29px; line-height: 1.3;}
+.reports-solutions-white {background-color: #fff;}
+.reports-solutions-checkbox {text-align: center; width: 30px; float: left; padding-top: 5px;}
+.reports-solutions-info {padding: 34px 25px 14px; font-size: 14px; line-height: 1.25;}
+.reports-solutions-info-text {margin-left: 55px;}
+.reports-solutions-text {padding: 34px 25px 14px;}
+.reports-solutions-number {font-size: 13px; margin: 8px 0;}
+
+.reports-solutions-link-container {margin-top: 14px;}
+.reports-solutions-link {display: inline-block; background: #FFFFFF; box-shadow: 0 2px 9px 0 rgba(0,0,0,0.31); border-radius: 100px; padding: 12px 20px; text-align: center;}
+.reports-solutions-link.active {color: #F5A419; box-shadow: none;}
+
+.custom-checkbox {display: inline-block;}
+.custom-checkbox label {background: url(../images/reportsCheckbox.png); width: 28px; height: 28px; overflow: hidden; margin-bottom: 0; height: 24px;}
+.custom-checkbox input {display: none;}
+.custom-checkbox input:checked ~ label {background-position: 0 -28px;}
+
+.reports-solutions-more-container {margin: 16px 0 0 32px;}
+.reports-solutions-more {background: url(../images/reportsArrowDown.png) no-repeat 100% 50%; padding-right: 25px; font-size: 14px; color: #636569;}
+
+.reports-info {margin: 29px 0 20px 0;}
+.reports-info-name {color: #888A8C; font-size: 17px;}
+.reports-info-text {margin: 30px 0 30px 30px; font-size: 14px; line-height: 1.2;}
+.reports-info-text p {margin: 10px 0;}
+
+.reports-rating {margin: 35px 0 0 0;}
+.reports-rating-title {padding: 15px 35px 11px; background-image: linear-gradient(135deg, #5D9CEC 0%, #0E65D7 100%); color: #fff; font-size: 17px; font-weight: bold; margin-bottom: 30px;}
+.reports-rating-name {display: inline-block; margin-left: 22px;}
+.reports-stars {display: inline-block; vertical-align: middle;}
+.reports-star {display: inline-block; background: url(../images/reportsStar.png); width: 23px; height: 24px; overflow: hidden; margin-right: 3px;}
+.reports-star.full {background-position: 0 -24px;}
+.reports-rating-row {margin-left: 40px; margin-left: 14px; line-height: 1.3;}
+
+.reports-sidebar {margin: -30px -40px 0 -4px; position: relative; z-index: 2; box-shadow: 0 2px 9px 0 rgba(0,0,0,0.31); border: 0; line-height: 1.4;}
+.reports-sidebar p {margin: 14px 0;}
+.reports-sidebar .panel-heading {padding: 14px 30px;}
+.reports-sidebar .panel-heading .accordion-toggle:after {left: -16px; top: 2px;}
+
+.reports-sidebar-text {margin-left: 46px; overflow: hidden;}
+
+.reports-sidebar-collapsible {box-shadow: 0 0 10px 0 rgba(0,0,0,0.10); padding: 14px 15px 3px; margin: 16px 20px 0; overflow: hidden;}
+.reports-sidebar-collapsible a {color: #636569;}
+.reports-sidebar-collapsible .custom-checkbox {float: left; margin-right: 5px; position: relative; top: -2px;}
+
+.reports-red {color: #D0021B;}
+
+.arrow-right {display: inline-block; background-image: url(../images/reportsArrowRight.png); width: 10px; height: 15px; vertical-align: middle;}
+.arrow-right:hover {opacity: .5;}
+
+@media screen and (max-width: 767px) {
+    .reports-laws-table-container {overflow-x: auto;}
+    .reports-solutions-container {margin-right: 0;}
+    .reports-info {margin-right: 0;}
+    .reports-rating {margin-right: 0;}
+    .reports-sidebar {margin: 0;}
+}
+
+/****** Reading ******/
+
+.reading-container {padding-bottom: 84px; margin-top: 35px; line-height: 1.3;}
+.reading-header {color: #3C73AF;}
+.reading-container p {margin: 20px 0;}
+
+.search-highlight {background-color: #c8e3ee !important;}
+
+.reading-search {width: 390px; max-width: 100%; position: fixed; bottom: 0; left: 50%; margin-left: 218px;}
+.reading-search-title {display: inline-block; background-image: linear-gradient(135deg, #4FC1E9 0%, #0B9BD0 100%); box-shadow: 0 1px 10px 0 #36B3E0; border-radius: 25px 25px 0 0; margin: 0 0 0 38px; font-size: 16px; color: #fff; padding: 12px 20px 11px 16px;}
+.reading-search-title .icon {display: inline-block; background: url(../images/readingKey.png) no-repeat 0 50%; width: 24px; height: 24px; overflow: hidden; vertical-align: middle; margin-right: 15px;}
+.reading-search-container {background: #FFFFFF; border-radius: 14px 14px 0 0;}
+.reading-search-content {padding: 8px 22px 30px 33px;}
+.reading-search-form {overflow: hidden;}
+.reading-search-input {float: left; border: solid #C4C4C4; border-width: 0 0 2px 0; color: #929CAA; padding: 10px 0; font-size: 15px; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; width: 280px; outline: none;}
+.reading-search-button {float: right; cursor: pointer; background: url(../images/readingMagnifier.png); width: 30px; height: 29px; overflow: hidden; border: none; outline: none; padding: 0; margin: 10px 10px 0 0;}
+
+.reading-search-tags {list-style-type: none; padding: 0; margin: 13px -13px 0 0;}
+.reading-search-tag {display: inline-block; color: #3C73AF; background: #EFF1F3; border-radius: 100px; padding: 10px 8px 10px 20px; margin: 5px 13px 5px 0;}
+.reading-search-remove {cursor: pointer; display: inline-block; background-image: url(../images/readingX.png); width: 17px; height: 17px; overflow: hidden; vertical-align: middle; position: relative; top: -2px; margin-left: 20px;}
+.reading-search-remove:hover {opacity: .5;}
+
+.reading-search-results {list-style-type: none; margin: 23px 0 0; padding: 0;}
+.reading-search-result {border-bottom: solid 2px #C4C4C4; padding: 7px 5px}
+.arrow-right:hover {opacity: .5;}
+
+@media screen and (max-width: 1439px) {
+    .reading-search {margin-left: 0; left: auto; right: 0;}
+}
+@media screen and (max-width: 400px) {
+    .reading-search-input {width: 200px;}
+}
+
+/****** Subscription ******/
+
+.subscription-nav {margin-top: 10px;}
+.subscription-nav.nav > li > a {color: #fff; filter: none !important;}
+.subscription-nav.nav > li > a:hover {color: #fff; opacity: .5;}
+
+.subscription-container {margin: 32px auto;}
+.subscription-block {float: none;}
+.subscription-header {position: relative; background: #000 url(../svg/subscriptionHeader.svg); height: 125px; padding: 74px 0 0 30px; background-position: right 38px bottom 0; background-repeat: no-repeat; background-color: #45cdab; background-color: linear-gradient(to right, #45cdab 59%,#1ba885 100%); border-radius: 8px 8px 0 0; box-shadow: 0 4px 9px 0 rgba(51,189,155,0.53); z-index: 1;}
+.subscription-header h2 {margin: 0px; font-size: 24px; color: #fff; line-height: 31px;}
+.subscription-content {padding: 30px 30px 16px; background: #fff; border-radius: 0 0 14px 14px;} /* Mask: */
+
+.subscription-input-block {margin-bottom: 3px;}
+.subscription-input-block label {display: block; font-size: 14px; color: #707884; font-weight: bold; margin: 0;}
+.subscription-input-block input {width: 100%; border: solid #C4C4C4; border-width: 0 0 2px 0; color: #929CAA; padding: 0 0 10px; font-size: 15px; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; outline: none;}
+.subscription-checkbox-header {margin-top: 13px; font-size: 14px;}
+.subscription-checkbox-list {padding: 0; list-style-type: none; margin: 10px 0 15px -5px; font-size: 14px;}
+.subscription-checkbox-item {margin-top: -6px;}
+.subscription-checkbox-item .custom-checkbox {display: inline-block; position: relative; top: 7px;}
+.subscription-button { background: #45cdab; background: linear-gradient(to right, #45cdab 0,#1ba885 100%); display: block; text-align: center; line-height: 60px; height: 60px; border-radius: 30px; color: #fff; font-size: 17px; box-shadow: 0 5px 10px rgba(193,235,225,1);}
+.subscription-button:hover {color: #fff;}
+
+/***** Home Page *****/
+
+#fourSection{margin-top:30px;min-height:1000px;}
+
+
+
+#fourSection .sameHeading {padding-right: 120px;position: relative;overflow: hidden;}
+#fourSection .sameHeading img {position: absolute;right: 15px;bottom: -10px;z-index: 0;}
+
+#fourSection .sameHeading h2 {margin: 0px;font-size: 18px;color: #fff;line-height: normal;}
+#fourSection .sameHeading.f1{box-shadow: 0 5px 10px rgba(178,230,217,1);
+background: #4abfe8; /* Old browsers */
+background: -moz-linear-gradient(left, #4abfe8 40%, #109dd2 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, #4abfe8 40%,#109dd2 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, #4abfe8 40%,#109dd2 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4abfe8', endColorstr='#109dd2',GradientType=1 ); /* IE6-9 */
+}
+#fourSection .sameHeading.f2
+{box-shadow:0 5px 10px rgba(192,219,166,1);
+background: #9ed366; /* Old browsers */
+background: -moz-linear-gradient(left, #44cba9 40%, #1fac89 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, #44cba9 40%,#1fac89 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, #44cba9 40%,#1fac89 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#44cba9', endColorstr='#1fac89',GradientType=1 ); /* IE6-9 */}
+
+#fourSection .sameHeading.f3
+{box-shadow:0 5px 10px rgba(252,201,113,1);position:relative;
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffc869+0,f6a822+100 */
+background: #ffc869; /* Old browsers */
+background: -moz-linear-gradient(left, #ffc869 0%, #f6a822 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, #ffc869 0%,#f6a822 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, #ffc869 0%,#f6a822 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffc869', endColorstr='#f6a822',GradientType=1 ); /* IE6-9 */
+}
+#fourSection .sameHeading.f4
+{box-shadow:0 5px 10px rgba(203,203,243,1);
+
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#5697ea+0,1469d9+100 */
+background: #5697ea; /* Old browsers */
+background: -moz-linear-gradient(left, #5697ea 0%, #1469d9 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, #5697ea 0%,#1469d9 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, #5697ea 0%,#1469d9 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5697ea', endColorstr='#1469d9',GradientType=1 ); /* IE6-9 */}
+.fourInner {background: #fff;border-radius: 10px 10px 10px 10px;position:relative;}
+.fourFirst ul li {display: block;float: left;width: 100%;padding:15px 25px;border-bottom:1px solid #e8e9e9;color: #3f4651;    font-size: 13px;}
+.fourFirst ul li label {display: block;color: #1887d6;font-size: 14px;margin-bottom:12px;}
+.chipOuter {padding: 20px;}
+.chipInner {background: #eff0f3;margin-bottom: 20px;border-radius: 20px;height: 40px;position: relative;padding: 0px 40px 0 20px;}
+.chipInner p {line-height: 40px;font-size: 13px;color: #1aa784;}
+.chipInner i {position: absolute;right: 10px;background: #d9dadc;border-radius: 50%;width: 20px;height: 20px;cursor: pointer;    color: #eff0f3; display: flex; justify-content: center;font-size: 12px;align-items: center;top: 50%;transform: translateY(-50%);}
+.paraOuter {padding: 20px;}
+.paraInner {background: #f2f0ec;margin-bottom: 20px;padding: 15px;box-shadow: 0 5px 10px rgba(0,0,0,0.1);}
+.paraInner label {display: block;margin-bottom: 10px;position: relative;color: #a5a29e;font-size: 14px;font-weight:400;padding: 0 20px 0 0;}
+.paraInner label i {position: absolute;right: 0px;top: 50%;transform: translateY(-50%);cursor: pointer;}
+.paraInner p {font-size: 13px;color: #585652;}
+.calendarInner {padding: 0 0 0 90px;position:relative;}
+.calendarInner label {position: absolute;left: 0px;width: 90px;text-align: center;font-size: 32px;color: #fff;height:100%;margin:0;padding-top:15px; font-weight: 400;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e49a1a+0,f9c05c+100 */
+background: #e49a1a; /* Old browsers */
+background: -moz-linear-gradient(top, #e49a1a 0%, #f9c05c 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #e49a1a 0%,#f9c05c 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #e49a1a 0%,#f9c05c 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e49a1a', endColorstr='#f9c05c',GradientType=0 ); /* IE6-9 */
+}
+.calendarInner + .calendarInner label{border-radius:0 0 0 10px;}
+
+.calendarInner label span {display: block;font-size:15px;}
+.calendarInner ul li {padding: 15px;border-bottom: 1px solid #e8e9e9;}
+.calendarInner ul li time {display: block;font-size: 13px;color: #e39918;font-weight: 600;}
+.fourInner .floatButton {left: 20px;right: inherit; bottom: -45px;}
+.fourInner .floatButton i {font-size: 20px;padding: 10px 20px 15px 20px;border-radius: 0px 0 30px 30px;color: #fff;cursor:pointer;}
+.fourInner .floatButton.fb2 i{box-shadow:0 5px 20px rgb(168, 222, 210);
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f1b143+0,e49a1b+100 */
+background: #f1b143; /* Old browsers */
+background: -moz-linear-gradient(top, #33bd9b 0%, #1dab88 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #33bd9b 0%,#1dab88 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #33bd9b 0%,#1dab88 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#33bd9b', endColorstr='#1dab88',GradientType=0 ); /* IE6-9 */
+
+}
+
+
+.fourInner .floatButton.fb3 i{box-shadow:0 5px 20px rgb(253, 210, 140);
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f1b143+0,e49a1b+100 */
+background: #f1b143; /* Old browsers */
+background: -moz-linear-gradient(top, #f0af40 0%, #e49a1b 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #f0af40 0%,#e49a1b 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #f0af40 0%,#e49a1b 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1b143', endColorstr='#e49a1b',GradientType=0 ); /* IE6-9 */
+
+}
+
+.fourInner .floatButton.fb4 i{box-shadow:0 5px 20px rgb(188, 168, 255);
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f1b143+0,e49a1b+100 */
+background: #f1b143; /* Old browsers */
+background: -moz-linear-gradient(top, #3883e3 0%, #1b6edb 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #3883e3 0%,#1b6edb 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #3883e3 0%,#1b6edb 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3883e3', endColorstr='#1b6edb',GradientType=0 ); /* IE6-9 */
+
+}
+
+@media screen and (min-width: 1200px) {
+.container {width: 1440px;padding:0 40px;}
+.pad-0{padding:0;}
+}
+
+@media screen and (max-width:1199px)
+{
+
+.navbar-header { max-width: 200px; width: 100%;}
+.menuOuter {margin-top: 10px;width: 100%; max-width: 660px;}
+.menuOuter ul {display: flex; align-items: center;margin-top: 10px;}
+.menuOuter form {max-width: 305px;padding: 0 40px 0 0;width: 100%; margin: 0;}
+.menuOuter form .form-group input {padding: 0 20px 0 35px;height: 45px;color: #fff;text-overflow: ellipsis;background-size: 20px;}
+.notifications {margin-top: 20px;max-width: 110px;padding: 0;width: 100%;}
+.menuOuter ul li:not(:last-child) {margin-right: 25px;}
+.menuOuter ul li a img {width: 30px;}
+.notifications ul li a {position: relative;font-size: 25px;color: #fff;}
+
+
+.fourOuter {margin-bottom: 30px;min-height: 620px;}
+.userOuter {min-height: 400px;}
+.loginRight {padding-left: 0;}
+#search .row {margin: 0;}
+#search .container, #documents .container {width: 100%;padding: 0;}
+.tabList ul {width: 50%; min-height: 280px;}
+.tabList ul:last-child{min-height:auto;}
+.descListInner {max-height: 220px; height: 220px;}
+.descListRight p {padding-right: 0;}
+
+
+}
+
+@media screen and (max-width:1024px)
+{
+.loginLeft{width:320px;padding:0 50px;}
+
+}
+
+@media screen and (max-width:991px)
+{
+.container{width:100%;}
+header{padding:10px 0;}
+header .menuOuter {max-width: inherit;border-top: 1px solid #658cb7 !important;}
+header .navbar-header {max-width: inherit;}
+header .navbar-header a {width: auto;}
+.notifications {max-width: inherit;padding: 0;width: auto;margin-top: 15px;right:95px;position:absolute;}
+.notifications ul {display: inline-block;float: left;}
+header .navbar{border-radius:0;}
+header .navbar > .container-fluid .navbar-brand{margin-left:0;}
+header .container-fluid > .navbar-header {float: none;margin-right:-15px;margin-left:-15px;}
+header .navbar-toggle {display: block;}
+header .container-fluid > .navbar-collapse {border-top: 1px solid transparent;box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);margin-left:-15px;margin-right:-15px;}
+header .navbar-collapse.collapse {display: none!important;}
+header .navbar-collapse.collapse.in{display: block!important;}
+header .navbar-nav {float: none!important; margin: 7.5px -15px;display:block;}
+header .navbar-nav>li {float: none;width:100%;}
+header .navbar-nav>li>a {padding: 10px 15px;}
+header .navbar-form {padding: 10px 15px;margin-right: -15px; margin-left: -15px;float: none !important;border: 0;-webkit-box-shadow: none;box-shadow: none;  max-width: inherit;width:auto;}
+header .navbar-form .form-group{display:block;}
+header .navbar-form .form-group input{display:block;width:100%;}
+header .nav li ul {position: static;width: auto; left: inherit;top: inherit;float: none;background: transparent;box-shadow: inherit;border: 0px;}
+header .nav li ul li a{color:#777;}
+header .nav li ul a:hover{background:transparent;}
+header .navbar-toggle {margin-right: 0;margin-top: 17px;border-radius: 0;border: 1px solid #fff !important;}
+header .navbar .navbar-toggle:hover, header .navbar .navbar-toggle:focus{background:transparent;}
+header .navbar-default .navbar-toggle .icon-bar {background-color: #fff;}
+header .navbar-header a img {width: 200px;}
+header .menuOuter ul li a img{display:inline-block;vertical-align:middle;}
+header .menuOuter ul li a span{display:inline-block;font-size:15px;font-weight:600;margin-left:15px;color: #051941;}
+
+.iconOuter p {font-size: 20px;}
+.fourOuter {margin-bottom: 30px;min-height: 550px;}
+.loginLeft {padding: 40px 50px;float: none;height: auto;position: absolute;left: 50%;border-radius: 4px;top: 50%;transform: translate(-50%, -50%);box-shadow: 0 0 40px rgba(0,0,0,0.5);background:none;}
+.loginMobileBg{display:block;position:absolute;left:0;top:0;width:100%;height:100%;background: #204f82; /* Old browsers */
+background: -moz-linear-gradient(top, #204f82 35%, #386faa 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #204f82 35%,#386faa 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #204f82 35%,#386faa 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#204f82', endColorstr='#386faa',GradientType=0 ); /* IE6-9 */  opacity: 0.8;}
+.loginForm {position: relative;z-index: 1;}
+
+
+.searchLeft {left: -330px;transition: all 0.55s ease-in-out;-webkit-transition: all 0.55s ease-in-out;}
+.searchRight { padding-left: 0;margin-top: 80px;}
+.documentRight{padding-left:0;}
+.documentLeft{left:-260px;-webkit-transition: all 0.55s ease-in-out;transition: all 0.55s ease-in-out;padding-left:20px;padding-right:20px;}
+
+.searchLeft span.show-icon, .documentLeft span.show-icon {position: absolute;right: -40px;width: 40px;height: 40px;border-radius: 0px 4px 4px 0;top: 20px; background: #32669f;display: flex;justify-content: center;align-items: center;cursor:pointer;}
+.searchLeft span.show-icon i, .documentLeft span.show-icon i {font-size: 30px;color: #fff;display: inline-block;margin: -2px 0 0 0;transition: all 0.55s ease-in-out;}
+.searchLeft.show-left {left: -10px;}
+.documentLeft.show-left{left:0;}
+.searchLeft.show-left span i {transform: rotate(180deg);margin: 0 0 0 -3px;}
+
+div#tableResponsive {padding: 0 30px; margin-top: 80px;}
+#tableResponsive colgroup, .documentRight:before {display: none;}
+.documentRight table {background: transparent;}
+#tableResponsive table, #tableResponsive thead, #tableResponsive tbody, #tableResponsive th, #tableResponsive td, #tableResponsive tr {display: block;}
+#tableResponsive thead tr {position: absolute;top: -9999px;left: -9999px;}
+#tableResponsive tr { border: 1px solid #a8aeb5;margin-bottom: 25px;}
+#tableResponsive td {border: none;border-bottom: 1px solid #a8aeb5;position: relative;padding-left: 120px;white-space: normal;		text-align:left;padding-top:25px;padding-bottom:25px;}
+#tableResponsive td:last-child{border:0;}
+#tableResponsive td:before {position: absolute;top: 50%;left: 20px;width: 45%;padding-right: 10px;white-space: nowrap;text-align:left;font-weight: bold;transform:translateY(-50%);}
+#tableResponsive td:before { content: attr(data-title); }
+.documentRight table tr td input[type="checkbox"] + label:before{left:0;top:50%;transform:translateY(-50%);}
+.documentRight table tr td input[type="checkbox"]:checked + label:before {top: -12px;left: 5px;}
+.documentRight table tr td.checkDesign input[type="checkbox"] + label:before {left:0;}
+.documentRight table tr td.checkDesign input[type="checkbox"]:checked + label:before {left:0;top:-12px;}
+#tableResponsive td br { display: none;}
+.documentRight table tr:first-child {background: #e6e7e8;}
+}
+
+
+@media screen and (max-width: 767px) {
+.tabs {display: none;}
+.tab_drawer_heading {background-color: #97999b;color: #fff;border-top: 0;margin: 0;padding: 15px 20px;display: block;float: left; border-radius: 4px;width: 100%;font-size:18px;cursor:pointer;margin-bottom: 4px;}
+.d_active {background-color: #2d6098;color: #fff;margin: 0;border-radius: 4px 4px 0 0;}
+.tab_content {margin-bottom: 5px;border-radius: 0 0 4px 4px;}
+.navbar-toggle{display:none;}
+
+
+.iconFirst, .descText {margin-bottom: 30px;}
+.textBar p {font-size: 14px;}
+.fourOuter {margin-bottom: 80px;min-height: auto;}
+.fourOuter:first-child {margin-bottom: 30px;}
+.userOuter {min-height: auto;margin-bottom: 90px;}
+.userAlert p {top: 4px;}
+.userAlert p br {display: none;}
+.searchRight {padding: 0 20px;}
+.tabList ul {width: 100%;min-height: auto;}
+.descListInner {
+    padding-left: 0;
+    position: relative;
+    max-height: inherit;
+    height: auto;
+    margin-bottom: 25px;
+
+    border-radius: 10px;
+}
+.descListLeft {
+    position: relative;
+    width: 100%;
+	border-radius:10px 10px 0 0;
+}
+
+.descListLeft label {
+ 	font-size:18px;
+    margin: 0 0 40px 0;
+
+}
+.descListLeft label br {
+    display: none;
+}
+.descListRight {
+
+    border-radius: 0 0 10px 10px;
+
+}
+.descListRight p {
+
+    margin-bottom: 30px;
+}
+.descListRight a {
+    position: relative;
+    bottom: 0;
+
+}
+}
+
+
+@media screen and (max-width:700px)
+{
+#login{height: 100%;}
+.loginLeft{width:100%;height:100%;}
+.loginRight {display: none;}
+.loginLogo a { display: inline-block;}
+.loginLogo {text-align: center;}
+.Tabchip ul li {margin-bottom: 15px;}
+
+}
+
+@media screen and (max-width:600px)
+{
+.textBar {padding: 20px;}
+.textBar p {width: 100%;}
+.textBar a {position: relative;width: auto;border-radius:5px;padding: 10px 0;margin-top: 20px;}
+
+.searchLeft {width: 250px;left:-250px;}
+.searchList ul {padding: 30px 25px;}
+.panel-heading {padding: 10px 25px;}
+.accordionOuter .panel-body {padding: 20px 25px;}
+.searchList ul li{margin-right:0 !important;}
+.panel-title {font-size: 14px;}
+.searchList ul li:not(:last-child) {margin-bottom: 20px;}
+}
+
+@media screen and (max-width:479px)
+{
+header .navbar-header a img {width: 150px;}
+.notifications ul li a {font-size: 20px;}
+.notifications ul li a span {width: 18px;height: 18px;font-size: 10px;}
+header .navbar-toggle {margin-top: 14px;padding: 6px;}
+.notifications {margin-top: 13px;right: 75px;}
+.notifications ul li:not(:last-child) {margin-right: 20px;}
+
+.iconOuter p {font-size: 17px;font-weight: 600;}
+.paginationOuter p img {display: none;}
+.paginationOuter a {margin-right: 15px;font-size: 14px;}
+.paginationOuter a span {width: 20px;height: 20px;margin-right: 5px;font-size: 12px;}
+.userDesc a {font-size: 15px;}
+.userInfo form .form-group, .userPass form .form-group {padding: 0;}
+.userInfo form .form-group label, .userPass form .form-group label {position: relative;left: inherit;top: inherit;transform: inherit; margin: 0;}
+.progressGraph {display: block;}
+.progressGraph img {margin-bottom: 20px;}
+.userAlert {padding: 60px 20px 20px 20px;}
+.userAlert img {left: 20px;top: 12px;width: 40px;transform: inherit;}
+.userAlert p {font-size: 14px;}
+.userDesc a {font-size: 14px;}
+.loginLeft{padding:15px;}
+.searchRight {padding: 0 15px;}
+.tab_content {padding: 20px 15px;}
+.descListLeft label {font-size: 16px;}
+.descListLeft p {font-size: 12px;}
+
+}
+
+
+@media screen and (max-width:359px)
+{
+
+}
